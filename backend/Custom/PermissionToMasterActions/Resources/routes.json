@@ -1,0 +1,27 @@
+[
+  {
+    "route": "/OktellCall/parent-id-is-exist",
+    "method": "post",
+    "params": {
+      "controller": "OktellCall",
+      "action": "parentIdIsExist"
+    }
+  },
+  {
+    "route": "/OktellCall/:oktellCallId/is-call-fully-ended",
+    "method": "get",
+    "params": {
+      "controller": "OktellCall",
+      "action": "isCallFullyEnded"
+    }
+  },
+  {
+    "route": "/PermissionToMasterActions/user/:userId",
+    "method": "get",
+    "params": {
+      "controller": "PermissionToMasterActions",
+      "action": "permissionsByUserId",
+      "userId": ":userId"
+    }
+  }
+]
