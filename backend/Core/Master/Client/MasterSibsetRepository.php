@@ -124,13 +124,6 @@ class MasterSibsetRepository
         }
     }
 
-    /**
-     * @return array{
-     *     isOur: boolean,
-     *     partners: array{id: string, name: string}[]
-     * }|array
-     * @throws GuzzleException
-     */
     public function isBrigadeZone(string $houseUuid1c): array
     {
         try {
