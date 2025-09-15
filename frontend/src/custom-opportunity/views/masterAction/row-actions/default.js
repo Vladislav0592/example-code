@@ -167,7 +167,7 @@ define('custom-opportunity:views/masterAction/row-actions/default', [
                 return
             }
             const url = this.getConfig().get('configs').master.base_uri
-            window.open(`${url}/#/ticket/connections/${this.masterTicketId}`, '_blank')
+            window.open(`${url}/#/путь/метода/${this.masterTicketId}`, '_blank')
         }
     }
 })

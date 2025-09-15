@@ -25,7 +25,6 @@ class Opportunity extends OpportunityServices
         private OpportunityToMasterHelper     $opportunityToMasterHelper
     ) {
         parent::__construct(OpportunityEntity::ENTITY_TYPE);
-        $this->translate = new Translate($this->language, OpportunityEntity::ENTITY_TYPE);
     }
 
     /**
